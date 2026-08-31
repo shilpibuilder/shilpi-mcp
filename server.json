@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.shilpibuilder/shilpi",
   "title": "Shilpi for WordPress",
-  "description": "Build and edit a WordPress site through scoped abilities: pages, templates, design variables, global classes, menus, taxonomies, SEO, WooCommerce, PHP snippets, fonts and media. Pages are stored as plain HTML and CSS, so the agent edits markup rather than proprietary builder data. No filesystem, SSH or wp-config access.",
+  "description": "Edit a WordPress site through scoped abilities: pages, templates, design system, SEO, shop.",
   "version": "1.9.4",
   "websiteUrl": "https://shilpibuilder.com/",
   "repository": {
