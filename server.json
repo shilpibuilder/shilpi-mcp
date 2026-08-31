@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.shilpibuilder/shilpi",
+  "title": "Shilpi for WordPress",
+  "description": "Build and edit a WordPress site through scoped abilities: pages, templates, design variables, global classes, menus, taxonomies, SEO, WooCommerce, PHP snippets, fonts and media. Pages are stored as plain HTML and CSS, so the agent edits markup rather than proprietary builder data. No filesystem, SSH or wp-config access.",
+  "version": "1.9.4",
+  "websiteUrl": "https://shilpibuilder.com/",
+  "repository": {
+    "url": "https://github.com/shilpibuilder/shilpi-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://{site_domain}/wp-json/mcp/shilpi-oauth",
+      "variables": {
+        "site_domain": {
+          "description": "The domain of your WordPress site running the Shilpi theme, for example example.com. The site needs an active Shilpi licence, otherwise the endpoint returns 404.",
+          "isRequired": true
+        }
+      }
+    }
+  ]
+}
