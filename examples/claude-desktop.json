@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "shilpi": {
+      "type": "http",
+      "url": "https://example.com/wp-json/mcp/shilpi-oauth"
+    }
+  }
+}
